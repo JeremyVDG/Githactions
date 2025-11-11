@@ -10,3 +10,4 @@ jobs:
       - name: Escribir hora por pantalla
         run: 
           echo "Hola desde el runner de GitHub Actions"
+         java -v  || echo "Java está instalado"
