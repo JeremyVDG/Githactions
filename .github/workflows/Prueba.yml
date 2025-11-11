@@ -1,0 +1,12 @@
+name: Mostrar lista
+on: 
+  push:
+    branch: [ main] 
+
+jobs: 
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Escribir hora por pantalla
+        run: 
+          echo "Hola desde el runner de GitHub Actions"
